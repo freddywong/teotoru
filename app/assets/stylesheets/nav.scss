@@ -1,0 +1,13 @@
+.nav-wrapper {
+  font-family: 'Montserrat-Regular';
+  color: #424242;
+  .nav-title {
+    size: 3em; 
+    @extend .grey-text, .text-darken-2;
+  }
+  .nav-items {
+    li > a{
+      @extend .grey-text, .text-darken-2;  
+    }
+  } 
+}
