@@ -5,12 +5,14 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
     <nav>
-      <div class="nav-wrapper">
+      <div class="nav-wrapper shades white">  
         <div class="container">
           <a href="#" class="brand-logo nav-title"><%= image_tag("logo.png", class:"nav-logo", height: '64') %><div>teotoru</div></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down nav-items">

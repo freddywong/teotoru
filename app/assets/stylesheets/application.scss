@@ -1,11 +1,12 @@
-@import "materialize/components/color";
-$primary-color: color("shades", "white") !default;
 @import "materialize";
 @font-face {
   font-family: "Montserrat-Regular";
   src: url(Montserrat-Regular.ttf) format("truetype");
 }
+@import "colors";
 @import "nav";
 @import "fonts";
 @import "margins";
 @import "logos";
+@import "main";
+@import "buttons";
