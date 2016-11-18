@@ -18,6 +18,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'materialize-sass'
+gem 'devise'
+gem 'mandrill-api'
 
 group :development, :test do
   gem 'pry'
@@ -30,6 +32,8 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'sinatra', github: 'sinatra'
+  gem 'mailcatcher'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
