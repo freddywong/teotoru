@@ -20,6 +20,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'materialize-sass'
 gem 'devise'
 gem 'mandrill-api'
+gem 'airbrake'
 
 group :development, :test do
   gem 'pry'
