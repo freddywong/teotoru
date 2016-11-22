@@ -19,8 +19,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'materialize-sass'
 gem 'devise'
-gem 'mandrill-api'
 gem 'airbrake'
+gem 'sendgrid-ruby'
 
 group :development, :test do
   gem 'pry'
